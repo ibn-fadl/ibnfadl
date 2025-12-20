@@ -1,3 +1,5 @@
-# Personal Website
+# Assalamualaikum Pace Mace
 
-[ibnfadl.com](https://ibnfadl.com)
+Ini sa pu website pribadi pu repo
+
+Buka di sini: [ibnfadl.com](https://ibnfadl.com)
