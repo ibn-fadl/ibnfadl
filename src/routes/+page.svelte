@@ -17,7 +17,7 @@
 		<img
 			src={icon}
 			alt="Icon"
-			class="h-12 w-12 animate-spin object-contain [animation-duration:32s] sm:h-16 sm:w-16 md:h-20 md:w-20 lg:h-24 lg:w-24"
+			class="h-12 w-12 animate-spin object-contain [animation-duration:128s] sm:h-16 sm:w-16 md:h-20 md:w-20 lg:h-24 lg:w-24"
 		/>
 
 		<!-- Right Image -->
