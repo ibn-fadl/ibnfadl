@@ -8,6 +8,11 @@
         stroke-miterlimit: 10;
         stroke-width: 80px;
       }
+      @media (prefers-color-scheme: dark) {
+        .cls-1 {
+          stroke: #fff;
+        }
+      }
     </style>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
