@@ -5,8 +5,8 @@
 </script>
 
 <svelte:head>
-	<title>Ardian's Personal Site</title>
-	<meta name="description" content="Personal website of Ardian" />
+	<title>Ardian ibn Fadl</title>
+	<meta name="description" content="Ardian's site" />
 
 	<!-- Facebook Meta Tags -->
 	<meta property="og:url" content="https://ibnfadl.com" />
