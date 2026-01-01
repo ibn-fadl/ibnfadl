@@ -8,8 +8,8 @@ env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
   REGION: asia-southeast1
   REPO_NAME: docker
-  SERVICE_NAME: mcp-server
-  IMAGE_NAME: mcp-server
+  SERVICE_NAME: ibnfadl-web
+  IMAGE_NAME: ibnfadl-web
 
 jobs:
   deploy:
@@ -43,9 +43,8 @@ jobs:
           image: ${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPO_NAME }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
           region: ${{ env.REGION }}
           flags: '--allow-unauthenticated --memory=128Mi --cpu=1 --min-instances=0 --max-instances=1 --cpu-boost'
-
-          secrets: |
-            AVAGENC_API_KEY=AVAGENC_API_KEY:latest
+          env_vars: |
+            NODE_ENV=production
 
       - name: Make Service Public
         run: |
